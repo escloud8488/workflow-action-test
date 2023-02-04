@@ -1,0 +1,9 @@
+name: First Action
+on: [push]
+jobs:
+  run-greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "First output"
+          echo "Second output"
